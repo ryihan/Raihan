@@ -20,6 +20,6 @@ Route::get('/', function () {
 Route::get('/RR', function () {
     return view('welcome');
 });
-Route::post('/Signup', function () {
+Route::get('/Signup', function () {
     return view('signup');
 });
