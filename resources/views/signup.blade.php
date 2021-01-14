@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>This Is Sign Up Page</title>
-    @include('css-js-top')
+    @include('Common-Asset/css-js-top')
     
   </head>
   <body>
@@ -33,6 +33,6 @@
     <div class="alert alert-dark" role="alert">
       A simple dark alert—check it out!
     </div>
-    @include('css-js-bottom')
+    @include('Common-Asset/css-js-bottom')
   </body>
 </html>
