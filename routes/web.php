@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('Raihan');
+
+});
+Route::get('/RR', function () {
     return view('welcome');
+});
+Route::post('/Signup', function () {
+    return view('signup');
 });
